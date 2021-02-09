@@ -23,5 +23,10 @@ export class MainPageComponent {
     poder: 0
   }
 
+  agregarNuevoPersonaje( personaje: Personaje) {
+    console.log('agregarNuevoPersonaje Main page');
+    this.personajes.push( personaje );
+  }
+
 
 }
